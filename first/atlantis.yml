@@ -1,9 +1,1 @@
-version: 3
 
-projects:
-  - name: ec2_project                  # Arbitrary project name
-    dir: .                             # Directory where your Terraform files are (root folder in this case)
-    workspace: default                 # Terraform workspace to use (default in this case)
-    autoplan:
-      when_modified: ["*.tf"]          # Automatically plan when *.tf files are modified
-      enabled: true                    # Enable automatic planning
